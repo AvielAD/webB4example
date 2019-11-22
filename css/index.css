@@ -90,6 +90,8 @@ a:hover{
 
 h5{margin-bottom: 0px;}
 .full-width{width: 100%;}
+.divider{border-bottom: 2px solid #f5f5f5;}
+
 /*end utilities*/
 
 /*start ABOUT US*/
@@ -146,6 +148,68 @@ a i{
     list-style-type: square;
 }
 /*end PRICING*/
+
+
+
+/*start Testimonials*/ 
+ 
+.carousel{ 
+ 
+    min-height: 15rem; 
+    padding: 2.5rem; 
+    border-radius: 2px; 
+    text-align: center; 
+} 
+.carousel p{ 
+    font-size: 1.6rem; 
+    font-weight: 400; 
+    color: black; 
+} 
+.rating i{ 
+    color: gold; 
+    font-size: 1.6rem; 
+} 
+.carousel-indicators li{ 
+    background-color: black; 
+    width: 1rem; 
+    height: 1rem; 
+    border-radius: 2px; 
+    margin: 0 8px; 
+} 
+.carousel-control-next, .carousel-control-prev{ 
+    color: white; 
+    opacity: 1; 
+    width: 5%; 
+} 
+.control-button{ 
+    background-color:black; 
+    opacity: 1; 
+    width: 3.1rem; 
+    height: 3.1rem; 
+    padding:0.6rem; 
+    border: 1px solid black; 
+    border-radius: 50px; 
+    font-size: 1.25rem; 
+} 
+.testimonial-user{ 
+    max-width: 15rem; 
+    margin: 0 auto; 
+    text-align: left; 
+ 
+} 
+.testimonial-user h6{ 
+    margin-bottom: 0px; 
+} 
+.testimonial-user span{ 
+    font-size: 1rem; 
+} 
+.testimonial-user img{ 
+    border-radius: 50px; 
+    max-width: 50px; 
+    text-align: center; 
+} 
+ 
+/*end Testimonials*/
 
 
 
