@@ -89,6 +89,7 @@ a:hover{
 .bg-light-grey{background-color: #f5f5f5;}
 
 h5{margin-bottom: 0px;}
+.full-width{width: 100%;}
 /*end utilities*/
 
 /*start ABOUT US*/
@@ -114,6 +115,37 @@ a i{
 }
 
 /*end ABOUT US*/
+/*start PRICING*/
+.pricing-container{
+    margin: 1rem 0;
+}
+.pricing-container .plans{
+    padding: 3.3rem 5rem;
+}
+.pricing-container .plan-light{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.pricing-container .plan-dark{
+    background-color:black;
+    border: 2px solid black;
+    color: white;
+}
+
+.plans h2{
+    font-size: 5rem;
+    font-weight: 600;
+
+}
+.plans span{
+    font-size: 1.3rem;
+}
+
+.plans ul {
+    list-style-type: square;
+}
+/*end PRICING*/
 
 
 
